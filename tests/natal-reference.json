@@ -1,0 +1,347 @@
+{
+ "birth_local": "1991-10-19T17:14",
+ "utc_offset": "3:30:00",
+ "birth_utc": "1991-10-19T13:44:00+00:00",
+ "lat": 30.28,
+ "lon": 57.08,
+ "house_system": "Placidus",
+ "ephemeris": "Moshier (swisseph)",
+ "planets": {
+  "Sun": {
+   "lon": 205.677,
+   "pos": "25°41' Libra",
+   "house": 6,
+   "retro": false
+  },
+  "Moon": {
+   "lon": 338.2056,
+   "pos": "8°12' Pisces",
+   "house": 11,
+   "retro": false
+  },
+  "Mercury": {
+   "lon": 216.3375,
+   "pos": "6°20' Scorpio",
+   "house": 7,
+   "retro": false
+  },
+  "Venus": {
+   "lon": 159.9341,
+   "pos": "9°56' Virgo",
+   "house": 5,
+   "retro": false
+  },
+  "Mars": {
+   "lon": 211.8797,
+   "pos": "1°53' Scorpio",
+   "house": 7,
+   "retro": false
+  },
+  "Jupiter": {
+   "lon": 157.3726,
+   "pos": "7°22' Virgo",
+   "house": 5,
+   "retro": false
+  },
+  "Saturn": {
+   "lon": 300.3681,
+   "pos": "0°22' Aquarius",
+   "house": 10,
+   "retro": false
+  },
+  "Uranus": {
+   "lon": 280.2217,
+   "pos": "10°13' Capricorn",
+   "house": 9,
+   "retro": false
+  },
+  "Neptune": {
+   "lon": 284.1387,
+   "pos": "14°08' Capricorn",
+   "house": 9,
+   "retro": false
+  },
+  "Pluto": {
+   "lon": 229.3226,
+   "pos": "19°19' Scorpio",
+   "house": 7,
+   "retro": false
+  },
+  "NorthNode": {
+   "lon": 283.4482,
+   "pos": "13°27' Capricorn",
+   "house": 9,
+   "retro": true
+  }
+ },
+ "Asc": {
+  "lon": 29.3393,
+  "pos": "29°20' Aries"
+ },
+ "MC": {
+  "lon": 289.0422,
+  "pos": "19°03' Capricorn"
+ },
+ "cusps": [
+  {
+   "house": 1,
+   "lon": 29.3393,
+   "pos": "29°20' Aries"
+  },
+  {
+   "house": 2,
+   "lon": 61.1036,
+   "pos": "1°06' Gemini"
+  },
+  {
+   "house": 3,
+   "lon": 85.86,
+   "pos": "25°52' Gemini"
+  },
+  {
+   "house": 4,
+   "lon": 109.0422,
+   "pos": "19°03' Cancer"
+  },
+  {
+   "house": 5,
+   "lon": 134.8573,
+   "pos": "14°51' Leo"
+  },
+  {
+   "house": 6,
+   "lon": 167.7399,
+   "pos": "17°44' Virgo"
+  },
+  {
+   "house": 7,
+   "lon": 209.3393,
+   "pos": "29°20' Libra"
+  },
+  {
+   "house": 8,
+   "lon": 241.1036,
+   "pos": "1°06' Sagittarius"
+  },
+  {
+   "house": 9,
+   "lon": 265.86,
+   "pos": "25°52' Sagittarius"
+  },
+  {
+   "house": 10,
+   "lon": 289.0422,
+   "pos": "19°03' Capricorn"
+  },
+  {
+   "house": 11,
+   "lon": 314.8573,
+   "pos": "14°51' Aquarius"
+  },
+  {
+   "house": 12,
+   "lon": 347.7399,
+   "pos": "17°44' Pisces"
+  }
+ ],
+ "aspects": [
+  {
+   "a": "Pluto",
+   "b": "MC",
+   "aspect": "sext",
+   "orb": 0.28
+  },
+  {
+   "a": "Venus",
+   "b": "Uranus",
+   "aspect": "tri",
+   "orb": 0.29
+  },
+  {
+   "a": "Neptune",
+   "b": "NorthNode",
+   "aspect": "conj",
+   "orb": 0.69
+  },
+  {
+   "a": "Moon",
+   "b": "Jupiter",
+   "aspect": "opp",
+   "orb": 0.83
+  },
+  {
+   "a": "Saturn",
+   "b": "Asc",
+   "aspect": "sq",
+   "orb": 1.03
+  },
+  {
+   "a": "Mercury",
+   "b": "Jupiter",
+   "aspect": "sext",
+   "orb": 1.04
+  },
+  {
+   "a": "Mars",
+   "b": "Saturn",
+   "aspect": "sq",
+   "orb": 1.51
+  },
+  {
+   "a": "Moon",
+   "b": "Venus",
+   "aspect": "opp",
+   "orb": 1.73
+  },
+  {
+   "a": "Moon",
+   "b": "Mercury",
+   "aspect": "tri",
+   "orb": 1.87
+  },
+  {
+   "a": "Moon",
+   "b": "Uranus",
+   "aspect": "sext",
+   "orb": 2.02
+  },
+  {
+   "a": "Mars",
+   "b": "Asc",
+   "aspect": "opp",
+   "orb": 2.54
+  },
+  {
+   "a": "Venus",
+   "b": "Jupiter",
+   "aspect": "conj",
+   "orb": 2.56
+  },
+  {
+   "a": "Jupiter",
+   "b": "Uranus",
+   "aspect": "tri",
+   "orb": 2.85
+  },
+  {
+   "a": "Uranus",
+   "b": "NorthNode",
+   "aspect": "conj",
+   "orb": 3.23
+  },
+  {
+   "a": "Venus",
+   "b": "NorthNode",
+   "aspect": "tri",
+   "orb": 3.51
+  },
+  {
+   "a": "Mercury",
+   "b": "Venus",
+   "aspect": "sext",
+   "orb": 3.6
+  },
+  {
+   "a": "Sun",
+   "b": "Asc",
+   "aspect": "opp",
+   "orb": 3.66
+  },
+  {
+   "a": "Mercury",
+   "b": "Uranus",
+   "aspect": "sext",
+   "orb": 3.88
+  },
+  {
+   "a": "Uranus",
+   "b": "Neptune",
+   "aspect": "conj",
+   "orb": 3.92
+  },
+  {
+   "a": "Venus",
+   "b": "Neptune",
+   "aspect": "tri",
+   "orb": 4.2
+  },
+  {
+   "a": "Mercury",
+   "b": "Mars",
+   "aspect": "conj",
+   "orb": 4.46
+  },
+  {
+   "a": "Sun",
+   "b": "Saturn",
+   "aspect": "sq",
+   "orb": 4.69
+  },
+  {
+   "a": "Neptune",
+   "b": "MC",
+   "aspect": "conj",
+   "orb": 4.9
+  },
+  {
+   "a": "Neptune",
+   "b": "Pluto",
+   "aspect": "sext",
+   "orb": 5.18
+  },
+  {
+   "a": "Moon",
+   "b": "NorthNode",
+   "aspect": "sext",
+   "orb": 5.24
+  },
+  {
+   "a": "Mars",
+   "b": "Jupiter",
+   "aspect": "sext",
+   "orb": 5.49
+  },
+  {
+   "a": "NorthNode",
+   "b": "MC",
+   "aspect": "conj",
+   "orb": 5.59
+  },
+  {
+   "a": "Pluto",
+   "b": "NorthNode",
+   "aspect": "sext",
+   "orb": 5.87
+  },
+  {
+   "a": "Moon",
+   "b": "Neptune",
+   "aspect": "sext",
+   "orb": 5.93
+  },
+  {
+   "a": "Mercury",
+   "b": "Saturn",
+   "aspect": "sq",
+   "orb": 5.97
+  },
+  {
+   "a": "Sun",
+   "b": "Mars",
+   "aspect": "conj",
+   "orb": 6.2
+  },
+  {
+   "a": "Moon",
+   "b": "Mars",
+   "aspect": "tri",
+   "orb": 6.33
+  },
+  {
+   "a": "Sun",
+   "b": "MC",
+   "aspect": "sq",
+   "orb": 6.63
+  }
+ ]
+}

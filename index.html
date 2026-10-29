@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#07051c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="آسمانه">
+<title>آسمانه</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<canvas id="sky"></canvas>
+<div id="veil"></div>
+<main id="views">
+  <section id="v-today" class="view on"></section>
+  <section id="v-sky" class="view">
+    <div class="skytop glass">
+      <button id="b-compass" class="chip">🧭 قطب‌نما</button>
+      <button id="b-red" class="chip">🔴 حالت شب</button>
+      <button id="b-labels" class="chip on">🏷 نام‌ها</button>
+    </div>
+    <div class="skybottom glass">
+      <div class="trow"><span id="t-label"></span><button id="b-now" class="chip sm">اکنون</button></div>
+      <input id="t-slider" type="range" min="-72" max="72" step="0.25" value="0" aria-label="زمان">
+      <div class="hint">بکش تا بچرخی، دو انگشتی بزرگ‌نمایی کن، روی سیاره یا برج بزن</div>
+    </div>
+  </section>
+  <section id="v-chart" class="view"></section>
+  <section id="v-moon" class="view"></section>
+  <section id="v-set" class="view"></section>
+</main>
+<div id="card" class="sheet glass" hidden></div>
+<nav id="tabs" class="glass">
+  <button data-v="today" class="on"><span>✦</span>امروز</button>
+  <button data-v="sky"><span>✧</span>آسمان</button>
+  <button data-v="chart"><span>◎</span>چارت</button>
+  <button data-v="moon"><span>☾</span>ماه</button>
+  <button data-v="set"><span>⚙︎</span>تنظیمات</button>
+</nav>
+<script src="vendor/astronomy.browser.min.js"></script>
+<script src="data/sky.js"></script>
+<script src="js/astro-core.js"></script>
+<script src="js/readings.js"></script>
+<script src="js/store.js"></script>
+<script src="js/sky.js"></script>
+<script src="js/wheel.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

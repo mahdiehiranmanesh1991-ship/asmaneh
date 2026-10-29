@@ -1,0 +1,131 @@
+{
+ "source": "Swiss Ephemeris (Moshier), tropical apparent geocentric",
+ "dates": {
+  "2026-10-29T12:00:00Z": {
+   "Sun": [
+    216.0788,
+    false
+   ],
+   "Moon": [
+    81.4201,
+    false
+   ],
+   "Mercury": [
+    229.025,
+    true
+   ],
+   "Venus": [
+    207.5695,
+    true
+   ],
+   "Mars": [
+    137.3526,
+    false
+   ],
+   "Jupiter": [
+    144.0122,
+    false
+   ],
+   "Saturn": [
+    9.447,
+    true
+   ],
+   "Uranus": [
+    64.7654,
+    true
+   ],
+   "Neptune": [
+    2.1373,
+    true
+   ],
+   "Pluto": [
+    303.1109,
+    false
+   ]
+  },
+  "2000-01-01T12:00:00Z": {
+   "Sun": [
+    280.3689,
+    false
+   ],
+   "Moon": [
+    223.3238,
+    false
+   ],
+   "Mercury": [
+    271.8893,
+    false
+   ],
+   "Venus": [
+    241.5658,
+    false
+   ],
+   "Mars": [
+    327.9633,
+    false
+   ],
+   "Jupiter": [
+    25.253,
+    false
+   ],
+   "Saturn": [
+    40.3956,
+    true
+   ],
+   "Uranus": [
+    314.8092,
+    false
+   ],
+   "Neptune": [
+    303.193,
+    false
+   ],
+   "Pluto": [
+    251.4547,
+    false
+   ]
+  },
+  "2024-04-08T18:00:00Z": {
+   "Sun": [
+    19.3862,
+    false
+   ],
+   "Moon": [
+    19.1827,
+    false
+   ],
+   "Mercury": [
+    24.8071,
+    true
+   ],
+   "Venus": [
+    4.4272,
+    false
+   ],
+   "Mars": [
+    343.0402,
+    false
+   ],
+   "Jupiter": [
+    49.0426,
+    false
+   ],
+   "Saturn": [
+    344.4537,
+    false
+   ],
+   "Uranus": [
+    51.1704,
+    false
+   ],
+   "Neptune": [
+    358.1895,
+    false
+   ],
+   "Pluto": [
+    301.9674,
+    false
+   ]
+  }
+ }
+}
